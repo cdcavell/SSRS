@@ -7,12 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ReportingService
+namespace ReportExecution
 {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    [System.ServiceModel.ServiceContractAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", ConfigurationName="ReportingService.ReportExecutionServiceSoap")]
+    [System.ServiceModel.ServiceContractAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", ConfigurationName="ReportExecution.ReportExecutionServiceSoap")]
     public interface ReportExecutionServiceSoap
     {
         
@@ -20,240 +20,240 @@ namespace ReportingService
             "tSecureMethods", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.ListSecureMethodsResponse> ListSecureMethodsAsync(ReportingService.ListSecureMethodsRequest request);
+        System.Threading.Tasks.Task<ReportExecution.ListSecureMethodsResponse> ListSecureMethodsAsync(ReportExecution.ListSecureMethodsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dReport", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadReportResponse> LoadReportAsync(ReportingService.LoadReportRequest request);
+        System.Threading.Tasks.Task<ReportExecution.LoadReportResponse> LoadReportAsync(ReportExecution.LoadReportRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dReport3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadReport3Response> LoadReport3Async(ReportingService.LoadReport3Request request);
+        System.Threading.Tasks.Task<ReportExecution.LoadReport3Response> LoadReport3Async(ReportExecution.LoadReport3Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dReport2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadReport2Response> LoadReport2Async(ReportingService.LoadReport2Request request);
+        System.Threading.Tasks.Task<ReportExecution.LoadReport2Response> LoadReport2Async(ReportExecution.LoadReport2Request request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dReportDefinition", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadReportDefinitionResponse> LoadReportDefinitionAsync(ReportingService.LoadReportDefinitionRequest request);
+        System.Threading.Tasks.Task<ReportExecution.LoadReportDefinitionResponse> LoadReportDefinitionAsync(ReportExecution.LoadReportDefinitionRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dReportDefinition2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadReportDefinition2Response> LoadReportDefinition2Async(ReportingService.LoadReportDefinition2Request request);
+        System.Threading.Tasks.Task<ReportExecution.LoadReportDefinition2Response> LoadReportDefinition2Async(ReportExecution.LoadReportDefinition2Request request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dReportDefinition3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadReportDefinition3Response> LoadReportDefinition3Async(ReportingService.LoadReportDefinition3Request request);
+        System.Threading.Tasks.Task<ReportExecution.LoadReportDefinition3Response> LoadReportDefinition3Async(ReportExecution.LoadReportDefinition3Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Set" +
             "ExecutionCredentials", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionCredentialsResponse> SetExecutionCredentialsAsync(ReportingService.SetExecutionCredentialsRequest request);
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentialsResponse> SetExecutionCredentialsAsync(ReportExecution.SetExecutionCredentialsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Set" +
             "ExecutionCredentials2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionCredentials2Response> SetExecutionCredentials2Async(ReportingService.SetExecutionCredentials2Request request);
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentials2Response> SetExecutionCredentials2Async(ReportExecution.SetExecutionCredentials2Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Set" +
             "ExecutionCredentials3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionCredentials3Response> SetExecutionCredentials3Async(ReportingService.SetExecutionCredentials3Request request);
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentials3Response> SetExecutionCredentials3Async(ReportExecution.SetExecutionCredentials3Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Set" +
             "ExecutionParameters", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionParametersResponse> SetExecutionParametersAsync(ReportingService.SetExecutionParametersRequest request);
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionParametersResponse> SetExecutionParametersAsync(ReportExecution.SetExecutionParametersRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Set" +
             "ExecutionParameters2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionParameters2Response> SetExecutionParameters2Async(ReportingService.SetExecutionParameters2Request request);
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionParameters2Response> SetExecutionParameters2Async(ReportExecution.SetExecutionParameters2Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Set" +
             "ExecutionParameters3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionParameters3Response> SetExecutionParameters3Async(ReportingService.SetExecutionParameters3Request request);
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionParameters3Response> SetExecutionParameters3Async(ReportExecution.SetExecutionParameters3Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Res" +
             "etExecution", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.ResetExecutionResponse> ResetExecutionAsync(ReportingService.ResetExecutionRequest request);
+        System.Threading.Tasks.Task<ReportExecution.ResetExecutionResponse> ResetExecutionAsync(ReportExecution.ResetExecutionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Res" +
             "etExecution2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.ResetExecution2Response> ResetExecution2Async(ReportingService.ResetExecution2Request request);
+        System.Threading.Tasks.Task<ReportExecution.ResetExecution2Response> ResetExecution2Async(ReportExecution.ResetExecution2Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Res" +
             "etExecution3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.ResetExecution3Response> ResetExecution3Async(ReportingService.ResetExecution3Request request);
+        System.Threading.Tasks.Task<ReportExecution.ResetExecution3Response> ResetExecution3Async(ReportExecution.ResetExecution3Request request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Ren" +
             "der", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.RenderResponse> RenderAsync(ReportingService.RenderRequest request);
+        System.Threading.Tasks.Task<ReportExecution.RenderResponse> RenderAsync(ReportExecution.RenderRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Ren" +
             "der2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.Render2Response> Render2Async(ReportingService.Render2Request request);
+        System.Threading.Tasks.Task<ReportExecution.Render2Response> Render2Async(ReportExecution.Render2Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Del" +
             "iverReportItem", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.DeliverReportItemResponse> DeliverReportItemAsync(ReportingService.DeliverReportItemRequest request);
+        System.Threading.Tasks.Task<ReportExecution.DeliverReportItemResponse> DeliverReportItemAsync(ReportExecution.DeliverReportItemRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Ren" +
             "derStream", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.RenderStreamResponse> RenderStreamAsync(ReportingService.RenderStreamRequest request);
+        System.Threading.Tasks.Task<ReportExecution.RenderStreamResponse> RenderStreamAsync(ReportExecution.RenderStreamRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Get" +
             "ExecutionInfo", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.GetExecutionInfoResponse> GetExecutionInfoAsync(ReportingService.GetExecutionInfoRequest request);
+        System.Threading.Tasks.Task<ReportExecution.GetExecutionInfoResponse> GetExecutionInfoAsync(ReportExecution.GetExecutionInfoRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Get" +
             "ExecutionInfo2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.GetExecutionInfo2Response> GetExecutionInfo2Async(ReportingService.GetExecutionInfo2Request request);
+        System.Threading.Tasks.Task<ReportExecution.GetExecutionInfo2Response> GetExecutionInfo2Async(ReportExecution.GetExecutionInfo2Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Get" +
             "ExecutionInfo3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.GetExecutionInfo3Response> GetExecutionInfo3Async(ReportingService.GetExecutionInfo3Request request);
+        System.Threading.Tasks.Task<ReportExecution.GetExecutionInfo3Response> GetExecutionInfo3Async(ReportExecution.GetExecutionInfo3Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Get" +
             "DocumentMap", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.GetDocumentMapResponse> GetDocumentMapAsync(ReportingService.GetDocumentMapRequest request);
+        System.Threading.Tasks.Task<ReportExecution.GetDocumentMapResponse> GetDocumentMapAsync(ReportExecution.GetDocumentMapRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dDrillthroughTarget", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTargetResponse> LoadDrillthroughTargetAsync(ReportingService.LoadDrillthroughTargetRequest request);
+        System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTargetResponse> LoadDrillthroughTargetAsync(ReportExecution.LoadDrillthroughTargetRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dDrillthroughTarget2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTarget2Response> LoadDrillthroughTarget2Async(ReportingService.LoadDrillthroughTarget2Request request);
+        System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTarget2Response> LoadDrillthroughTarget2Async(ReportExecution.LoadDrillthroughTarget2Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Loa" +
             "dDrillthroughTarget3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTarget3Response> LoadDrillthroughTarget3Async(ReportingService.LoadDrillthroughTarget3Request request);
+        System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTarget3Response> LoadDrillthroughTarget3Async(ReportExecution.LoadDrillthroughTarget3Request request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Tog" +
             "gleItem", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.ToggleItemResponse> ToggleItemAsync(ReportingService.ToggleItemRequest request);
+        System.Threading.Tasks.Task<ReportExecution.ToggleItemResponse> ToggleItemAsync(ReportExecution.ToggleItemRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Nav" +
             "igateDocumentMap", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.NavigateDocumentMapResponse> NavigateDocumentMapAsync(ReportingService.NavigateDocumentMapRequest request);
+        System.Threading.Tasks.Task<ReportExecution.NavigateDocumentMapResponse> NavigateDocumentMapAsync(ReportExecution.NavigateDocumentMapRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Nav" +
             "igateBookmark", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.NavigateBookmarkResponse> NavigateBookmarkAsync(ReportingService.NavigateBookmarkRequest request);
+        System.Threading.Tasks.Task<ReportExecution.NavigateBookmarkResponse> NavigateBookmarkAsync(ReportExecution.NavigateBookmarkRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Fin" +
             "dString", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.FindStringResponse> FindStringAsync(ReportingService.FindStringRequest request);
+        System.Threading.Tasks.Task<ReportExecution.FindStringResponse> FindStringAsync(ReportExecution.FindStringRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Sor" +
             "t", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.SortResponse> SortAsync(ReportingService.SortRequest request);
+        System.Threading.Tasks.Task<ReportExecution.SortResponse> SortAsync(ReportExecution.SortRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Sor" +
             "t2", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.Sort2Response> Sort2Async(ReportingService.Sort2Request request);
+        System.Threading.Tasks.Task<ReportExecution.Sort2Response> Sort2Async(ReportExecution.Sort2Request request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Sor" +
             "t3", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.Sort3Response> Sort3Async(ReportingService.Sort3Request request);
+        System.Threading.Tasks.Task<ReportExecution.Sort3Response> Sort3Async(ReportExecution.Sort3Request request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Get" +
             "RenderResource", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.GetRenderResourceResponse> GetRenderResourceAsync(ReportingService.GetRenderResourceRequest request);
+        System.Threading.Tasks.Task<ReportExecution.GetRenderResourceResponse> GetRenderResourceAsync(ReportExecution.GetRenderResourceRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Lis" +
             "tRenderingExtensions", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.ListRenderingExtensionsResponse> ListRenderingExtensionsAsync(ReportingService.ListRenderingExtensionsRequest request);
+        System.Threading.Tasks.Task<ReportExecution.ListRenderingExtensionsResponse> ListRenderingExtensionsAsync(ReportExecution.ListRenderingExtensionsRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Log" +
             "onUser", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LogonUserResponse> LogonUserAsync(ReportingService.LogonUserRequest request);
+        System.Threading.Tasks.Task<ReportExecution.LogonUserResponse> LogonUserAsync(ReportExecution.LogonUserRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices/Log" +
             "off", ReplyAction="*")]
         [System.ServiceModel.XmlSerializerFormatAttribute(SupportFaults=true)]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(ParameterValueOrFieldReference))]
-        System.Threading.Tasks.Task<ReportingService.LogoffResponse> LogoffAsync(ReportingService.LogoffRequest request);
+        System.Threading.Tasks.Task<ReportExecution.LogoffResponse> LogoffAsync(ReportExecution.LogoffRequest request);
     }
     
     /// <remarks/>
@@ -1978,13 +1978,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public ListSecureMethodsRequest()
         {
         }
         
-        public ListSecureMethodsRequest(ReportingService.TrustedUserHeader TrustedUserHeader)
+        public ListSecureMethodsRequest(ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -1998,7 +1998,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string[] ListSecureMethodsResult;
@@ -2007,7 +2007,7 @@ namespace ReportingService
         {
         }
         
-        public ListSecureMethodsResponse(ReportingService.ServerInfoHeader ServerInfoHeader, string[] ListSecureMethodsResult)
+        public ListSecureMethodsResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, string[] ListSecureMethodsResult)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.ListSecureMethodsResult = ListSecureMethodsResult;
@@ -2022,7 +2022,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Report;
@@ -2034,7 +2034,7 @@ namespace ReportingService
         {
         }
         
-        public LoadReportRequest(ReportingService.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
+        public LoadReportRequest(ReportExecution.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Report = Report;
@@ -2050,19 +2050,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo executionInfo;
+        public ReportExecution.ExecutionInfo executionInfo;
         
         public LoadReportResponse()
         {
         }
         
-        public LoadReportResponse(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo executionInfo)
+        public LoadReportResponse(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo executionInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -2078,7 +2078,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Report;
@@ -2090,7 +2090,7 @@ namespace ReportingService
         {
         }
         
-        public LoadReport3Request(ReportingService.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
+        public LoadReport3Request(ReportExecution.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Report = Report;
@@ -2106,19 +2106,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 executionInfo;
+        public ReportExecution.ExecutionInfo3 executionInfo;
         
         public LoadReport3Response()
         {
         }
         
-        public LoadReport3Response(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 executionInfo)
+        public LoadReport3Response(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 executionInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -2134,7 +2134,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Report;
@@ -2146,7 +2146,7 @@ namespace ReportingService
         {
         }
         
-        public LoadReport2Request(ReportingService.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
+        public LoadReport2Request(ReportExecution.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Report = Report;
@@ -2162,19 +2162,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 executionInfo;
+        public ReportExecution.ExecutionInfo2 executionInfo;
         
         public LoadReport2Response()
         {
         }
         
-        public LoadReport2Response(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 executionInfo)
+        public LoadReport2Response(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 executionInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -2189,7 +2189,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -2199,7 +2199,7 @@ namespace ReportingService
         {
         }
         
-        public LoadReportDefinitionRequest(ReportingService.TrustedUserHeader TrustedUserHeader, byte[] Definition)
+        public LoadReportDefinitionRequest(ReportExecution.TrustedUserHeader TrustedUserHeader, byte[] Definition)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Definition = Definition;
@@ -2213,22 +2213,22 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo executionInfo;
+        public ReportExecution.ExecutionInfo executionInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
-        public ReportingService.Warning[] warnings;
+        public ReportExecution.Warning[] warnings;
         
         public LoadReportDefinitionResponse()
         {
         }
         
-        public LoadReportDefinitionResponse(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo executionInfo, ReportingService.Warning[] warnings)
+        public LoadReportDefinitionResponse(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo executionInfo, ReportExecution.Warning[] warnings)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -2244,7 +2244,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -2254,7 +2254,7 @@ namespace ReportingService
         {
         }
         
-        public LoadReportDefinition2Request(ReportingService.TrustedUserHeader TrustedUserHeader, byte[] Definition)
+        public LoadReportDefinition2Request(ReportExecution.TrustedUserHeader TrustedUserHeader, byte[] Definition)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Definition = Definition;
@@ -2268,22 +2268,22 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 executionInfo;
+        public ReportExecution.ExecutionInfo2 executionInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
-        public ReportingService.Warning[] warnings;
+        public ReportExecution.Warning[] warnings;
         
         public LoadReportDefinition2Response()
         {
         }
         
-        public LoadReportDefinition2Response(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 executionInfo, ReportingService.Warning[] warnings)
+        public LoadReportDefinition2Response(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 executionInfo, ReportExecution.Warning[] warnings)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -2299,7 +2299,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -2309,7 +2309,7 @@ namespace ReportingService
         {
         }
         
-        public LoadReportDefinition3Request(ReportingService.TrustedUserHeader TrustedUserHeader, byte[] Definition)
+        public LoadReportDefinition3Request(ReportExecution.TrustedUserHeader TrustedUserHeader, byte[] Definition)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Definition = Definition;
@@ -2323,22 +2323,22 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 executionInfo;
+        public ReportExecution.ExecutionInfo3 executionInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
-        public ReportingService.Warning[] warnings;
+        public ReportExecution.Warning[] warnings;
         
         public LoadReportDefinition3Response()
         {
         }
         
-        public LoadReportDefinition3Response(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 executionInfo, ReportingService.Warning[] warnings)
+        public LoadReportDefinition3Response(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 executionInfo, ReportExecution.Warning[] warnings)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -2355,19 +2355,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.DataSourceCredentials[] Credentials;
+        public ReportExecution.DataSourceCredentials[] Credentials;
         
         public SetExecutionCredentialsRequest()
         {
         }
         
-        public SetExecutionCredentialsRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.DataSourceCredentials[] Credentials)
+        public SetExecutionCredentialsRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.DataSourceCredentials[] Credentials)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2383,16 +2383,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo executionInfo;
+        public ReportExecution.ExecutionInfo executionInfo;
         
         public SetExecutionCredentialsResponse()
         {
         }
         
-        public SetExecutionCredentialsResponse(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo executionInfo)
+        public SetExecutionCredentialsResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2407,19 +2407,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.DataSourceCredentials[] Credentials;
+        public ReportExecution.DataSourceCredentials[] Credentials;
         
         public SetExecutionCredentials2Request()
         {
         }
         
-        public SetExecutionCredentials2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.DataSourceCredentials[] Credentials)
+        public SetExecutionCredentials2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.DataSourceCredentials[] Credentials)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2435,16 +2435,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 executionInfo;
+        public ReportExecution.ExecutionInfo2 executionInfo;
         
         public SetExecutionCredentials2Response()
         {
         }
         
-        public SetExecutionCredentials2Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 executionInfo)
+        public SetExecutionCredentials2Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2459,19 +2459,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.DataSourceCredentials[] Credentials;
+        public ReportExecution.DataSourceCredentials[] Credentials;
         
         public SetExecutionCredentials3Request()
         {
         }
         
-        public SetExecutionCredentials3Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.DataSourceCredentials[] Credentials)
+        public SetExecutionCredentials3Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.DataSourceCredentials[] Credentials)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2487,16 +2487,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 executionInfo;
+        public ReportExecution.ExecutionInfo3 executionInfo;
         
         public SetExecutionCredentials3Response()
         {
         }
         
-        public SetExecutionCredentials3Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 executionInfo)
+        public SetExecutionCredentials3Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2511,13 +2511,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ParameterValue[] Parameters;
+        public ReportExecution.ParameterValue[] Parameters;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
         public string ParameterLanguage;
@@ -2526,7 +2526,7 @@ namespace ReportingService
         {
         }
         
-        public SetExecutionParametersRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.ParameterValue[] Parameters, string ParameterLanguage)
+        public SetExecutionParametersRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.ParameterValue[] Parameters, string ParameterLanguage)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2543,16 +2543,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo executionInfo;
+        public ReportExecution.ExecutionInfo executionInfo;
         
         public SetExecutionParametersResponse()
         {
         }
         
-        public SetExecutionParametersResponse(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo executionInfo)
+        public SetExecutionParametersResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2567,13 +2567,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ParameterValue[] Parameters;
+        public ReportExecution.ParameterValue[] Parameters;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
         public string ParameterLanguage;
@@ -2582,7 +2582,7 @@ namespace ReportingService
         {
         }
         
-        public SetExecutionParameters2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.ParameterValue[] Parameters, string ParameterLanguage)
+        public SetExecutionParameters2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.ParameterValue[] Parameters, string ParameterLanguage)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2599,16 +2599,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 executionInfo;
+        public ReportExecution.ExecutionInfo2 executionInfo;
         
         public SetExecutionParameters2Response()
         {
         }
         
-        public SetExecutionParameters2Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 executionInfo)
+        public SetExecutionParameters2Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2623,13 +2623,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ParameterValue[] Parameters;
+        public ReportExecution.ParameterValue[] Parameters;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
         public string ParameterLanguage;
@@ -2638,7 +2638,7 @@ namespace ReportingService
         {
         }
         
-        public SetExecutionParameters3Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.ParameterValue[] Parameters, string ParameterLanguage)
+        public SetExecutionParameters3Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.ParameterValue[] Parameters, string ParameterLanguage)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2655,16 +2655,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 executionInfo;
+        public ReportExecution.ExecutionInfo3 executionInfo;
         
         public SetExecutionParameters3Response()
         {
         }
         
-        public SetExecutionParameters3Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 executionInfo)
+        public SetExecutionParameters3Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2679,16 +2679,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public ResetExecutionRequest()
         {
         }
         
-        public ResetExecutionRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public ResetExecutionRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2703,16 +2703,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo executionInfo;
+        public ReportExecution.ExecutionInfo executionInfo;
         
         public ResetExecutionResponse()
         {
         }
         
-        public ResetExecutionResponse(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo executionInfo)
+        public ResetExecutionResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2727,16 +2727,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public ResetExecution2Request()
         {
         }
         
-        public ResetExecution2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public ResetExecution2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2751,16 +2751,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 executionInfo;
+        public ReportExecution.ExecutionInfo2 executionInfo;
         
         public ResetExecution2Response()
         {
         }
         
-        public ResetExecution2Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 executionInfo)
+        public ResetExecution2Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2775,16 +2775,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public ResetExecution3Request()
         {
         }
         
-        public ResetExecution3Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public ResetExecution3Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2799,16 +2799,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 executionInfo;
+        public ReportExecution.ExecutionInfo3 executionInfo;
         
         public ResetExecution3Response()
         {
         }
         
-        public ResetExecution3Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 executionInfo)
+        public ResetExecution3Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -2822,10 +2822,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Format;
@@ -2837,7 +2837,7 @@ namespace ReportingService
         {
         }
         
-        public RenderRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo)
+        public RenderRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2853,7 +2853,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -2869,7 +2869,7 @@ namespace ReportingService
         public string Encoding;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=4)]
-        public ReportingService.Warning[] Warnings;
+        public ReportExecution.Warning[] Warnings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=5)]
         public string[] StreamIds;
@@ -2878,7 +2878,7 @@ namespace ReportingService
         {
         }
         
-        public RenderResponse(ReportingService.ServerInfoHeader ServerInfoHeader, byte[] Result, string Extension, string MimeType, string Encoding, ReportingService.Warning[] Warnings, string[] StreamIds)
+        public RenderResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, byte[] Result, string Extension, string MimeType, string Encoding, ReportExecution.Warning[] Warnings, string[] StreamIds)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Result = Result;
@@ -2897,10 +2897,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Format;
@@ -2909,13 +2909,13 @@ namespace ReportingService
         public string DeviceInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
-        public ReportingService.PageCountMode PaginationMode;
+        public ReportExecution.PageCountMode PaginationMode;
         
         public Render2Request()
         {
         }
         
-        public Render2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo, ReportingService.PageCountMode PaginationMode)
+        public Render2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo, ReportExecution.PageCountMode PaginationMode)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -2932,7 +2932,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -2948,7 +2948,7 @@ namespace ReportingService
         public string Encoding;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=4)]
-        public ReportingService.Warning[] Warnings;
+        public ReportExecution.Warning[] Warnings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=5)]
         public string[] StreamIds;
@@ -2957,7 +2957,7 @@ namespace ReportingService
         {
         }
         
-        public Render2Response(ReportingService.ServerInfoHeader ServerInfoHeader, byte[] Result, string Extension, string MimeType, string Encoding, ReportingService.Warning[] Warnings, string[] StreamIds)
+        public Render2Response(ReportExecution.ServerInfoHeader ServerInfoHeader, byte[] Result, string Extension, string MimeType, string Encoding, ReportExecution.Warning[] Warnings, string[] StreamIds)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Result = Result;
@@ -2977,10 +2977,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Format;
@@ -2989,7 +2989,7 @@ namespace ReportingService
         public string DeviceInfo;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
-        public ReportingService.ExtensionSettings ExtensionSettings;
+        public ReportExecution.ExtensionSettings ExtensionSettings;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=3)]
         public string Description;
@@ -3004,7 +3004,7 @@ namespace ReportingService
         {
         }
         
-        public DeliverReportItemRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo, ReportingService.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData)
+        public DeliverReportItemRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo, ReportExecution.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3025,13 +3025,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         public DeliverReportItemResponse()
         {
         }
         
-        public DeliverReportItemResponse(ReportingService.ServerInfoHeader ServerInfoHeader)
+        public DeliverReportItemResponse(ReportExecution.ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -3044,10 +3044,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Format;
@@ -3062,7 +3062,7 @@ namespace ReportingService
         {
         }
         
-        public RenderStreamRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string Format, string StreamID, string DeviceInfo)
+        public RenderStreamRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string Format, string StreamID, string DeviceInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3079,7 +3079,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -3095,7 +3095,7 @@ namespace ReportingService
         {
         }
         
-        public RenderStreamResponse(ReportingService.ServerInfoHeader ServerInfoHeader, byte[] Result, string Encoding, string MimeType)
+        public RenderStreamResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, byte[] Result, string Encoding, string MimeType)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Result = Result;
@@ -3112,16 +3112,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public GetExecutionInfoRequest()
         {
         }
         
-        public GetExecutionInfoRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public GetExecutionInfoRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3136,16 +3136,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo executionInfo;
+        public ReportExecution.ExecutionInfo executionInfo;
         
         public GetExecutionInfoResponse()
         {
         }
         
-        public GetExecutionInfoResponse(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo executionInfo)
+        public GetExecutionInfoResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -3160,16 +3160,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public GetExecutionInfo2Request()
         {
         }
         
-        public GetExecutionInfo2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public GetExecutionInfo2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3184,16 +3184,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 executionInfo;
+        public ReportExecution.ExecutionInfo2 executionInfo;
         
         public GetExecutionInfo2Response()
         {
         }
         
-        public GetExecutionInfo2Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 executionInfo)
+        public GetExecutionInfo2Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -3208,16 +3208,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public GetExecutionInfo3Request()
         {
         }
         
-        public GetExecutionInfo3Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public GetExecutionInfo3Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3232,16 +3232,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 executionInfo;
+        public ReportExecution.ExecutionInfo3 executionInfo;
         
         public GetExecutionInfo3Response()
         {
         }
         
-        public GetExecutionInfo3Response(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 executionInfo)
+        public GetExecutionInfo3Response(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 executionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.executionInfo = executionInfo;
@@ -3256,16 +3256,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public GetDocumentMapRequest()
         {
         }
         
-        public GetDocumentMapRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public GetDocumentMapRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3280,16 +3280,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.DocumentMapNode result;
+        public ReportExecution.DocumentMapNode result;
         
         public GetDocumentMapResponse()
         {
         }
         
-        public GetDocumentMapResponse(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.DocumentMapNode result)
+        public GetDocumentMapResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.DocumentMapNode result)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.result = result;
@@ -3304,10 +3304,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string DrillthroughID;
@@ -3316,7 +3316,7 @@ namespace ReportingService
         {
         }
         
-        public LoadDrillthroughTargetRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
+        public LoadDrillthroughTargetRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3332,19 +3332,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo ExecutionInfo;
+        public ReportExecution.ExecutionInfo ExecutionInfo;
         
         public LoadDrillthroughTargetResponse()
         {
         }
         
-        public LoadDrillthroughTargetResponse(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo ExecutionInfo)
+        public LoadDrillthroughTargetResponse(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo ExecutionInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -3360,10 +3360,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string DrillthroughID;
@@ -3372,7 +3372,7 @@ namespace ReportingService
         {
         }
         
-        public LoadDrillthroughTarget2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
+        public LoadDrillthroughTarget2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3388,19 +3388,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo2 ExecutionInfo;
+        public ReportExecution.ExecutionInfo2 ExecutionInfo;
         
         public LoadDrillthroughTarget2Response()
         {
         }
         
-        public LoadDrillthroughTarget2Response(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo2 ExecutionInfo)
+        public LoadDrillthroughTarget2Response(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo2 ExecutionInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -3416,10 +3416,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string DrillthroughID;
@@ -3428,7 +3428,7 @@ namespace ReportingService
         {
         }
         
-        public LoadDrillthroughTarget3Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
+        public LoadDrillthroughTarget3Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3444,19 +3444,19 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.ExecutionInfo3 ExecutionInfo;
+        public ReportExecution.ExecutionInfo3 ExecutionInfo;
         
         public LoadDrillthroughTarget3Response()
         {
         }
         
-        public LoadDrillthroughTarget3Response(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.ExecutionInfo3 ExecutionInfo)
+        public LoadDrillthroughTarget3Response(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.ExecutionInfo3 ExecutionInfo)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.ServerInfoHeader = ServerInfoHeader;
@@ -3472,10 +3472,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string ToggleID;
@@ -3484,7 +3484,7 @@ namespace ReportingService
         {
         }
         
-        public ToggleItemRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string ToggleID)
+        public ToggleItemRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string ToggleID)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3500,7 +3500,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public bool Found;
@@ -3509,7 +3509,7 @@ namespace ReportingService
         {
         }
         
-        public ToggleItemResponse(ReportingService.ServerInfoHeader ServerInfoHeader, bool Found)
+        public ToggleItemResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, bool Found)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Found = Found;
@@ -3524,10 +3524,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string DocMapID;
@@ -3536,7 +3536,7 @@ namespace ReportingService
         {
         }
         
-        public NavigateDocumentMapRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DocMapID)
+        public NavigateDocumentMapRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DocMapID)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3552,7 +3552,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int PageNumber;
@@ -3561,7 +3561,7 @@ namespace ReportingService
         {
         }
         
-        public NavigateDocumentMapResponse(ReportingService.ServerInfoHeader ServerInfoHeader, int PageNumber)
+        public NavigateDocumentMapResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, int PageNumber)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.PageNumber = PageNumber;
@@ -3575,10 +3575,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string BookmarkID;
@@ -3587,7 +3587,7 @@ namespace ReportingService
         {
         }
         
-        public NavigateBookmarkRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string BookmarkID)
+        public NavigateBookmarkRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string BookmarkID)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3602,7 +3602,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int PageNumber;
@@ -3614,7 +3614,7 @@ namespace ReportingService
         {
         }
         
-        public NavigateBookmarkResponse(ReportingService.ServerInfoHeader ServerInfoHeader, int PageNumber, string UniqueName)
+        public NavigateBookmarkResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, int PageNumber, string UniqueName)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.PageNumber = PageNumber;
@@ -3630,10 +3630,10 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int StartPage;
@@ -3648,7 +3648,7 @@ namespace ReportingService
         {
         }
         
-        public FindStringRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, int StartPage, int EndPage, string FindValue)
+        public FindStringRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, int StartPage, int EndPage, string FindValue)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3666,7 +3666,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int PageNumber;
@@ -3675,7 +3675,7 @@ namespace ReportingService
         {
         }
         
-        public FindStringResponse(ReportingService.ServerInfoHeader ServerInfoHeader, int PageNumber)
+        public FindStringResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, int PageNumber)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.PageNumber = PageNumber;
@@ -3705,16 +3705,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string SortItem;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
-        public ReportingService.SortDirectionEnum Direction;
+        public ReportExecution.SortDirectionEnum Direction;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
         public bool Clear;
@@ -3723,7 +3723,7 @@ namespace ReportingService
         {
         }
         
-        public SortRequest(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string SortItem, ReportingService.SortDirectionEnum Direction, bool Clear)
+        public SortRequest(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string SortItem, ReportExecution.SortDirectionEnum Direction, bool Clear)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3740,7 +3740,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int PageNumber;
@@ -3755,7 +3755,7 @@ namespace ReportingService
         {
         }
         
-        public SortResponse(ReportingService.ServerInfoHeader ServerInfoHeader, int PageNumber, string ReportItem, int NumPages)
+        public SortResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, int PageNumber, string ReportItem, int NumPages)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.PageNumber = PageNumber;
@@ -3771,28 +3771,28 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string SortItem;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
-        public ReportingService.SortDirectionEnum Direction;
+        public ReportExecution.SortDirectionEnum Direction;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
         public bool Clear;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=3)]
-        public ReportingService.PageCountMode PaginationMode;
+        public ReportExecution.PageCountMode PaginationMode;
         
         public Sort2Request()
         {
         }
         
-        public Sort2Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string SortItem, ReportingService.SortDirectionEnum Direction, bool Clear, ReportingService.PageCountMode PaginationMode)
+        public Sort2Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string SortItem, ReportExecution.SortDirectionEnum Direction, bool Clear, ReportExecution.PageCountMode PaginationMode)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3810,7 +3810,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int PageNumber;
@@ -3819,13 +3819,13 @@ namespace ReportingService
         public string ReportItem;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
-        public ReportingService.ExecutionInfo2 ExecutionInfo;
+        public ReportExecution.ExecutionInfo2 ExecutionInfo;
         
         public Sort2Response()
         {
         }
         
-        public Sort2Response(ReportingService.ServerInfoHeader ServerInfoHeader, int PageNumber, string ReportItem, ReportingService.ExecutionInfo2 ExecutionInfo)
+        public Sort2Response(ReportExecution.ServerInfoHeader ServerInfoHeader, int PageNumber, string ReportItem, ReportExecution.ExecutionInfo2 ExecutionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.PageNumber = PageNumber;
@@ -3841,28 +3841,28 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ExecutionHeader ExecutionHeader;
+        public ReportExecution.ExecutionHeader ExecutionHeader;
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string SortItem;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=1)]
-        public ReportingService.SortDirectionEnum Direction;
+        public ReportExecution.SortDirectionEnum Direction;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
         public bool Clear;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=3)]
-        public ReportingService.PageCountMode PaginationMode;
+        public ReportExecution.PageCountMode PaginationMode;
         
         public Sort3Request()
         {
         }
         
-        public Sort3Request(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string SortItem, ReportingService.SortDirectionEnum Direction, bool Clear, ReportingService.PageCountMode PaginationMode)
+        public Sort3Request(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string SortItem, ReportExecution.SortDirectionEnum Direction, bool Clear, ReportExecution.PageCountMode PaginationMode)
         {
             this.ExecutionHeader = ExecutionHeader;
             this.TrustedUserHeader = TrustedUserHeader;
@@ -3880,7 +3880,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public int PageNumber;
@@ -3889,13 +3889,13 @@ namespace ReportingService
         public string ReportItem;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=2)]
-        public ReportingService.ExecutionInfo3 ExecutionInfo;
+        public ReportExecution.ExecutionInfo3 ExecutionInfo;
         
         public Sort3Response()
         {
         }
         
-        public Sort3Response(ReportingService.ServerInfoHeader ServerInfoHeader, int PageNumber, string ReportItem, ReportingService.ExecutionInfo3 ExecutionInfo)
+        public Sort3Response(ReportExecution.ServerInfoHeader ServerInfoHeader, int PageNumber, string ReportItem, ReportExecution.ExecutionInfo3 ExecutionInfo)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.PageNumber = PageNumber;
@@ -3911,7 +3911,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         public string Format;
@@ -3923,7 +3923,7 @@ namespace ReportingService
         {
         }
         
-        public GetRenderResourceRequest(ReportingService.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo)
+        public GetRenderResourceRequest(ReportExecution.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo)
         {
             this.TrustedUserHeader = TrustedUserHeader;
             this.Format = Format;
@@ -3938,7 +3938,7 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute(DataType="base64Binary")]
@@ -3951,7 +3951,7 @@ namespace ReportingService
         {
         }
         
-        public GetRenderResourceResponse(ReportingService.ServerInfoHeader ServerInfoHeader, byte[] Result, string MimeType)
+        public GetRenderResourceResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, byte[] Result, string MimeType)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Result = Result;
@@ -3967,13 +3967,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.TrustedUserHeader TrustedUserHeader;
+        public ReportExecution.TrustedUserHeader TrustedUserHeader;
         
         public ListRenderingExtensionsRequest()
         {
         }
         
-        public ListRenderingExtensionsRequest(ReportingService.TrustedUserHeader TrustedUserHeader)
+        public ListRenderingExtensionsRequest(ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
             this.TrustedUserHeader = TrustedUserHeader;
         }
@@ -3987,16 +3987,16 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices", Order=0)]
-        public ReportingService.Extension[] Extensions;
+        public ReportExecution.Extension[] Extensions;
         
         public ListRenderingExtensionsResponse()
         {
         }
         
-        public ListRenderingExtensionsResponse(ReportingService.ServerInfoHeader ServerInfoHeader, ReportingService.Extension[] Extensions)
+        public ListRenderingExtensionsResponse(ReportExecution.ServerInfoHeader ServerInfoHeader, ReportExecution.Extension[] Extensions)
         {
             this.ServerInfoHeader = ServerInfoHeader;
             this.Extensions = Extensions;
@@ -4039,13 +4039,13 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         public LogonUserResponse()
         {
         }
         
-        public LogonUserResponse(ReportingService.ServerInfoHeader ServerInfoHeader)
+        public LogonUserResponse(ReportExecution.ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
@@ -4071,26 +4071,26 @@ namespace ReportingService
     {
         
         [System.ServiceModel.MessageHeaderAttribute(Namespace="http://schemas.microsoft.com/sqlserver/2005/06/30/reporting/reportingservices")]
-        public ReportingService.ServerInfoHeader ServerInfoHeader;
+        public ReportExecution.ServerInfoHeader ServerInfoHeader;
         
         public LogoffResponse()
         {
         }
         
-        public LogoffResponse(ReportingService.ServerInfoHeader ServerInfoHeader)
+        public LogoffResponse(ReportExecution.ServerInfoHeader ServerInfoHeader)
         {
             this.ServerInfoHeader = ServerInfoHeader;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    public interface ReportExecutionServiceSoapChannel : ReportingService.ReportExecutionServiceSoap, System.ServiceModel.IClientChannel
+    public interface ReportExecutionServiceSoapChannel : ReportExecution.ReportExecutionServiceSoap, System.ServiceModel.IClientChannel
     {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.0.2")]
-    public partial class ReportExecutionServiceSoapClient : System.ServiceModel.ClientBase<ReportingService.ReportExecutionServiceSoap>, ReportingService.ReportExecutionServiceSoap
+    public partial class ReportExecutionServiceSoapClient : System.ServiceModel.ClientBase<ReportExecution.ReportExecutionServiceSoap>, ReportExecution.ReportExecutionServiceSoap
     {
         
         /// <summary>
@@ -4127,232 +4127,232 @@ namespace ReportingService
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.ListSecureMethodsResponse> ReportingService.ReportExecutionServiceSoap.ListSecureMethodsAsync(ReportingService.ListSecureMethodsRequest request)
+        System.Threading.Tasks.Task<ReportExecution.ListSecureMethodsResponse> ReportExecution.ReportExecutionServiceSoap.ListSecureMethodsAsync(ReportExecution.ListSecureMethodsRequest request)
         {
             return base.Channel.ListSecureMethodsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.ListSecureMethodsResponse> ListSecureMethodsAsync(ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.ListSecureMethodsResponse> ListSecureMethodsAsync(ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.ListSecureMethodsRequest inValue = new ReportingService.ListSecureMethodsRequest();
+            ReportExecution.ListSecureMethodsRequest inValue = new ReportExecution.ListSecureMethodsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).ListSecureMethodsAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).ListSecureMethodsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LoadReportResponse> ReportingService.ReportExecutionServiceSoap.LoadReportAsync(ReportingService.LoadReportRequest request)
+        System.Threading.Tasks.Task<ReportExecution.LoadReportResponse> ReportExecution.ReportExecutionServiceSoap.LoadReportAsync(ReportExecution.LoadReportRequest request)
         {
             return base.Channel.LoadReportAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadReportResponse> LoadReportAsync(ReportingService.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
+        public System.Threading.Tasks.Task<ReportExecution.LoadReportResponse> LoadReportAsync(ReportExecution.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
         {
-            ReportingService.LoadReportRequest inValue = new ReportingService.LoadReportRequest();
+            ReportExecution.LoadReportRequest inValue = new ReportExecution.LoadReportRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Report = Report;
             inValue.HistoryID = HistoryID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LoadReportAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LoadReportAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LoadReport3Response> ReportingService.ReportExecutionServiceSoap.LoadReport3Async(ReportingService.LoadReport3Request request)
+        System.Threading.Tasks.Task<ReportExecution.LoadReport3Response> ReportExecution.ReportExecutionServiceSoap.LoadReport3Async(ReportExecution.LoadReport3Request request)
         {
             return base.Channel.LoadReport3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadReport3Response> LoadReport3Async(ReportingService.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
+        public System.Threading.Tasks.Task<ReportExecution.LoadReport3Response> LoadReport3Async(ReportExecution.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
         {
-            ReportingService.LoadReport3Request inValue = new ReportingService.LoadReport3Request();
+            ReportExecution.LoadReport3Request inValue = new ReportExecution.LoadReport3Request();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Report = Report;
             inValue.HistoryID = HistoryID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LoadReport3Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LoadReport3Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LoadReport2Response> ReportingService.ReportExecutionServiceSoap.LoadReport2Async(ReportingService.LoadReport2Request request)
+        System.Threading.Tasks.Task<ReportExecution.LoadReport2Response> ReportExecution.ReportExecutionServiceSoap.LoadReport2Async(ReportExecution.LoadReport2Request request)
         {
             return base.Channel.LoadReport2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadReport2Response> LoadReport2Async(ReportingService.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
+        public System.Threading.Tasks.Task<ReportExecution.LoadReport2Response> LoadReport2Async(ReportExecution.TrustedUserHeader TrustedUserHeader, string Report, string HistoryID)
         {
-            ReportingService.LoadReport2Request inValue = new ReportingService.LoadReport2Request();
+            ReportExecution.LoadReport2Request inValue = new ReportExecution.LoadReport2Request();
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Report = Report;
             inValue.HistoryID = HistoryID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LoadReport2Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LoadReport2Async(inValue);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadReportDefinitionResponse> LoadReportDefinitionAsync(ReportingService.LoadReportDefinitionRequest request)
+        public System.Threading.Tasks.Task<ReportExecution.LoadReportDefinitionResponse> LoadReportDefinitionAsync(ReportExecution.LoadReportDefinitionRequest request)
         {
             return base.Channel.LoadReportDefinitionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadReportDefinition2Response> LoadReportDefinition2Async(ReportingService.LoadReportDefinition2Request request)
+        public System.Threading.Tasks.Task<ReportExecution.LoadReportDefinition2Response> LoadReportDefinition2Async(ReportExecution.LoadReportDefinition2Request request)
         {
             return base.Channel.LoadReportDefinition2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadReportDefinition3Response> LoadReportDefinition3Async(ReportingService.LoadReportDefinition3Request request)
+        public System.Threading.Tasks.Task<ReportExecution.LoadReportDefinition3Response> LoadReportDefinition3Async(ReportExecution.LoadReportDefinition3Request request)
         {
             return base.Channel.LoadReportDefinition3Async(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionCredentialsResponse> ReportingService.ReportExecutionServiceSoap.SetExecutionCredentialsAsync(ReportingService.SetExecutionCredentialsRequest request)
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentialsResponse> ReportExecution.ReportExecutionServiceSoap.SetExecutionCredentialsAsync(ReportExecution.SetExecutionCredentialsRequest request)
         {
             return base.Channel.SetExecutionCredentialsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SetExecutionCredentialsResponse> SetExecutionCredentialsAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.DataSourceCredentials[] Credentials)
+        public System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentialsResponse> SetExecutionCredentialsAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.DataSourceCredentials[] Credentials)
         {
-            ReportingService.SetExecutionCredentialsRequest inValue = new ReportingService.SetExecutionCredentialsRequest();
+            ReportExecution.SetExecutionCredentialsRequest inValue = new ReportExecution.SetExecutionCredentialsRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Credentials = Credentials;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).SetExecutionCredentialsAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).SetExecutionCredentialsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionCredentials2Response> ReportingService.ReportExecutionServiceSoap.SetExecutionCredentials2Async(ReportingService.SetExecutionCredentials2Request request)
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentials2Response> ReportExecution.ReportExecutionServiceSoap.SetExecutionCredentials2Async(ReportExecution.SetExecutionCredentials2Request request)
         {
             return base.Channel.SetExecutionCredentials2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SetExecutionCredentials2Response> SetExecutionCredentials2Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.DataSourceCredentials[] Credentials)
+        public System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentials2Response> SetExecutionCredentials2Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.DataSourceCredentials[] Credentials)
         {
-            ReportingService.SetExecutionCredentials2Request inValue = new ReportingService.SetExecutionCredentials2Request();
+            ReportExecution.SetExecutionCredentials2Request inValue = new ReportExecution.SetExecutionCredentials2Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Credentials = Credentials;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).SetExecutionCredentials2Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).SetExecutionCredentials2Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionCredentials3Response> ReportingService.ReportExecutionServiceSoap.SetExecutionCredentials3Async(ReportingService.SetExecutionCredentials3Request request)
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentials3Response> ReportExecution.ReportExecutionServiceSoap.SetExecutionCredentials3Async(ReportExecution.SetExecutionCredentials3Request request)
         {
             return base.Channel.SetExecutionCredentials3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SetExecutionCredentials3Response> SetExecutionCredentials3Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.DataSourceCredentials[] Credentials)
+        public System.Threading.Tasks.Task<ReportExecution.SetExecutionCredentials3Response> SetExecutionCredentials3Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.DataSourceCredentials[] Credentials)
         {
-            ReportingService.SetExecutionCredentials3Request inValue = new ReportingService.SetExecutionCredentials3Request();
+            ReportExecution.SetExecutionCredentials3Request inValue = new ReportExecution.SetExecutionCredentials3Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Credentials = Credentials;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).SetExecutionCredentials3Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).SetExecutionCredentials3Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionParametersResponse> ReportingService.ReportExecutionServiceSoap.SetExecutionParametersAsync(ReportingService.SetExecutionParametersRequest request)
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionParametersResponse> ReportExecution.ReportExecutionServiceSoap.SetExecutionParametersAsync(ReportExecution.SetExecutionParametersRequest request)
         {
             return base.Channel.SetExecutionParametersAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SetExecutionParametersResponse> SetExecutionParametersAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.ParameterValue[] Parameters, string ParameterLanguage)
+        public System.Threading.Tasks.Task<ReportExecution.SetExecutionParametersResponse> SetExecutionParametersAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.ParameterValue[] Parameters, string ParameterLanguage)
         {
-            ReportingService.SetExecutionParametersRequest inValue = new ReportingService.SetExecutionParametersRequest();
+            ReportExecution.SetExecutionParametersRequest inValue = new ReportExecution.SetExecutionParametersRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Parameters = Parameters;
             inValue.ParameterLanguage = ParameterLanguage;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).SetExecutionParametersAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).SetExecutionParametersAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionParameters2Response> ReportingService.ReportExecutionServiceSoap.SetExecutionParameters2Async(ReportingService.SetExecutionParameters2Request request)
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionParameters2Response> ReportExecution.ReportExecutionServiceSoap.SetExecutionParameters2Async(ReportExecution.SetExecutionParameters2Request request)
         {
             return base.Channel.SetExecutionParameters2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SetExecutionParameters2Response> SetExecutionParameters2Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.ParameterValue[] Parameters, string ParameterLanguage)
+        public System.Threading.Tasks.Task<ReportExecution.SetExecutionParameters2Response> SetExecutionParameters2Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.ParameterValue[] Parameters, string ParameterLanguage)
         {
-            ReportingService.SetExecutionParameters2Request inValue = new ReportingService.SetExecutionParameters2Request();
+            ReportExecution.SetExecutionParameters2Request inValue = new ReportExecution.SetExecutionParameters2Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Parameters = Parameters;
             inValue.ParameterLanguage = ParameterLanguage;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).SetExecutionParameters2Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).SetExecutionParameters2Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.SetExecutionParameters3Response> ReportingService.ReportExecutionServiceSoap.SetExecutionParameters3Async(ReportingService.SetExecutionParameters3Request request)
+        System.Threading.Tasks.Task<ReportExecution.SetExecutionParameters3Response> ReportExecution.ReportExecutionServiceSoap.SetExecutionParameters3Async(ReportExecution.SetExecutionParameters3Request request)
         {
             return base.Channel.SetExecutionParameters3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SetExecutionParameters3Response> SetExecutionParameters3Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, ReportingService.ParameterValue[] Parameters, string ParameterLanguage)
+        public System.Threading.Tasks.Task<ReportExecution.SetExecutionParameters3Response> SetExecutionParameters3Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, ReportExecution.ParameterValue[] Parameters, string ParameterLanguage)
         {
-            ReportingService.SetExecutionParameters3Request inValue = new ReportingService.SetExecutionParameters3Request();
+            ReportExecution.SetExecutionParameters3Request inValue = new ReportExecution.SetExecutionParameters3Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Parameters = Parameters;
             inValue.ParameterLanguage = ParameterLanguage;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).SetExecutionParameters3Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).SetExecutionParameters3Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.ResetExecutionResponse> ReportingService.ReportExecutionServiceSoap.ResetExecutionAsync(ReportingService.ResetExecutionRequest request)
+        System.Threading.Tasks.Task<ReportExecution.ResetExecutionResponse> ReportExecution.ReportExecutionServiceSoap.ResetExecutionAsync(ReportExecution.ResetExecutionRequest request)
         {
             return base.Channel.ResetExecutionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.ResetExecutionResponse> ResetExecutionAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.ResetExecutionResponse> ResetExecutionAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.ResetExecutionRequest inValue = new ReportingService.ResetExecutionRequest();
+            ReportExecution.ResetExecutionRequest inValue = new ReportExecution.ResetExecutionRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).ResetExecutionAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).ResetExecutionAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.ResetExecution2Response> ReportingService.ReportExecutionServiceSoap.ResetExecution2Async(ReportingService.ResetExecution2Request request)
+        System.Threading.Tasks.Task<ReportExecution.ResetExecution2Response> ReportExecution.ReportExecutionServiceSoap.ResetExecution2Async(ReportExecution.ResetExecution2Request request)
         {
             return base.Channel.ResetExecution2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.ResetExecution2Response> ResetExecution2Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.ResetExecution2Response> ResetExecution2Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.ResetExecution2Request inValue = new ReportingService.ResetExecution2Request();
+            ReportExecution.ResetExecution2Request inValue = new ReportExecution.ResetExecution2Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).ResetExecution2Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).ResetExecution2Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.ResetExecution3Response> ReportingService.ReportExecutionServiceSoap.ResetExecution3Async(ReportingService.ResetExecution3Request request)
+        System.Threading.Tasks.Task<ReportExecution.ResetExecution3Response> ReportExecution.ReportExecutionServiceSoap.ResetExecution3Async(ReportExecution.ResetExecution3Request request)
         {
             return base.Channel.ResetExecution3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.ResetExecution3Response> ResetExecution3Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.ResetExecution3Response> ResetExecution3Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.ResetExecution3Request inValue = new ReportingService.ResetExecution3Request();
+            ReportExecution.ResetExecution3Request inValue = new ReportExecution.ResetExecution3Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).ResetExecution3Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).ResetExecution3Async(inValue);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.RenderResponse> RenderAsync(ReportingService.RenderRequest request)
+        public System.Threading.Tasks.Task<ReportExecution.RenderResponse> RenderAsync(ReportExecution.RenderRequest request)
         {
             return base.Channel.RenderAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.Render2Response> Render2Async(ReportingService.Render2Request request)
+        public System.Threading.Tasks.Task<ReportExecution.Render2Response> Render2Async(ReportExecution.Render2Request request)
         {
             return base.Channel.Render2Async(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.DeliverReportItemResponse> ReportingService.ReportExecutionServiceSoap.DeliverReportItemAsync(ReportingService.DeliverReportItemRequest request)
+        System.Threading.Tasks.Task<ReportExecution.DeliverReportItemResponse> ReportExecution.ReportExecutionServiceSoap.DeliverReportItemAsync(ReportExecution.DeliverReportItemRequest request)
         {
             return base.Channel.DeliverReportItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.DeliverReportItemResponse> DeliverReportItemAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo, ReportingService.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData)
+        public System.Threading.Tasks.Task<ReportExecution.DeliverReportItemResponse> DeliverReportItemAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string Format, string DeviceInfo, ReportExecution.ExtensionSettings ExtensionSettings, string Description, string EventType, string MatchData)
         {
-            ReportingService.DeliverReportItemRequest inValue = new ReportingService.DeliverReportItemRequest();
+            ReportExecution.DeliverReportItemRequest inValue = new ReportExecution.DeliverReportItemRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.Format = Format;
@@ -4361,225 +4361,225 @@ namespace ReportingService
             inValue.Description = Description;
             inValue.EventType = EventType;
             inValue.MatchData = MatchData;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).DeliverReportItemAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).DeliverReportItemAsync(inValue);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.RenderStreamResponse> RenderStreamAsync(ReportingService.RenderStreamRequest request)
+        public System.Threading.Tasks.Task<ReportExecution.RenderStreamResponse> RenderStreamAsync(ReportExecution.RenderStreamRequest request)
         {
             return base.Channel.RenderStreamAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.GetExecutionInfoResponse> ReportingService.ReportExecutionServiceSoap.GetExecutionInfoAsync(ReportingService.GetExecutionInfoRequest request)
+        System.Threading.Tasks.Task<ReportExecution.GetExecutionInfoResponse> ReportExecution.ReportExecutionServiceSoap.GetExecutionInfoAsync(ReportExecution.GetExecutionInfoRequest request)
         {
             return base.Channel.GetExecutionInfoAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.GetExecutionInfoResponse> GetExecutionInfoAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.GetExecutionInfoResponse> GetExecutionInfoAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.GetExecutionInfoRequest inValue = new ReportingService.GetExecutionInfoRequest();
+            ReportExecution.GetExecutionInfoRequest inValue = new ReportExecution.GetExecutionInfoRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).GetExecutionInfoAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).GetExecutionInfoAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.GetExecutionInfo2Response> ReportingService.ReportExecutionServiceSoap.GetExecutionInfo2Async(ReportingService.GetExecutionInfo2Request request)
+        System.Threading.Tasks.Task<ReportExecution.GetExecutionInfo2Response> ReportExecution.ReportExecutionServiceSoap.GetExecutionInfo2Async(ReportExecution.GetExecutionInfo2Request request)
         {
             return base.Channel.GetExecutionInfo2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.GetExecutionInfo2Response> GetExecutionInfo2Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.GetExecutionInfo2Response> GetExecutionInfo2Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.GetExecutionInfo2Request inValue = new ReportingService.GetExecutionInfo2Request();
+            ReportExecution.GetExecutionInfo2Request inValue = new ReportExecution.GetExecutionInfo2Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).GetExecutionInfo2Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).GetExecutionInfo2Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.GetExecutionInfo3Response> ReportingService.ReportExecutionServiceSoap.GetExecutionInfo3Async(ReportingService.GetExecutionInfo3Request request)
+        System.Threading.Tasks.Task<ReportExecution.GetExecutionInfo3Response> ReportExecution.ReportExecutionServiceSoap.GetExecutionInfo3Async(ReportExecution.GetExecutionInfo3Request request)
         {
             return base.Channel.GetExecutionInfo3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.GetExecutionInfo3Response> GetExecutionInfo3Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.GetExecutionInfo3Response> GetExecutionInfo3Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.GetExecutionInfo3Request inValue = new ReportingService.GetExecutionInfo3Request();
+            ReportExecution.GetExecutionInfo3Request inValue = new ReportExecution.GetExecutionInfo3Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).GetExecutionInfo3Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).GetExecutionInfo3Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.GetDocumentMapResponse> ReportingService.ReportExecutionServiceSoap.GetDocumentMapAsync(ReportingService.GetDocumentMapRequest request)
+        System.Threading.Tasks.Task<ReportExecution.GetDocumentMapResponse> ReportExecution.ReportExecutionServiceSoap.GetDocumentMapAsync(ReportExecution.GetDocumentMapRequest request)
         {
             return base.Channel.GetDocumentMapAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.GetDocumentMapResponse> GetDocumentMapAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.GetDocumentMapResponse> GetDocumentMapAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.GetDocumentMapRequest inValue = new ReportingService.GetDocumentMapRequest();
+            ReportExecution.GetDocumentMapRequest inValue = new ReportExecution.GetDocumentMapRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).GetDocumentMapAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).GetDocumentMapAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTargetResponse> ReportingService.ReportExecutionServiceSoap.LoadDrillthroughTargetAsync(ReportingService.LoadDrillthroughTargetRequest request)
+        System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTargetResponse> ReportExecution.ReportExecutionServiceSoap.LoadDrillthroughTargetAsync(ReportExecution.LoadDrillthroughTargetRequest request)
         {
             return base.Channel.LoadDrillthroughTargetAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTargetResponse> LoadDrillthroughTargetAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
+        public System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTargetResponse> LoadDrillthroughTargetAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
         {
-            ReportingService.LoadDrillthroughTargetRequest inValue = new ReportingService.LoadDrillthroughTargetRequest();
+            ReportExecution.LoadDrillthroughTargetRequest inValue = new ReportExecution.LoadDrillthroughTargetRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DrillthroughID = DrillthroughID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LoadDrillthroughTargetAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LoadDrillthroughTargetAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTarget2Response> ReportingService.ReportExecutionServiceSoap.LoadDrillthroughTarget2Async(ReportingService.LoadDrillthroughTarget2Request request)
+        System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTarget2Response> ReportExecution.ReportExecutionServiceSoap.LoadDrillthroughTarget2Async(ReportExecution.LoadDrillthroughTarget2Request request)
         {
             return base.Channel.LoadDrillthroughTarget2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTarget2Response> LoadDrillthroughTarget2Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
+        public System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTarget2Response> LoadDrillthroughTarget2Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
         {
-            ReportingService.LoadDrillthroughTarget2Request inValue = new ReportingService.LoadDrillthroughTarget2Request();
+            ReportExecution.LoadDrillthroughTarget2Request inValue = new ReportExecution.LoadDrillthroughTarget2Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DrillthroughID = DrillthroughID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LoadDrillthroughTarget2Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LoadDrillthroughTarget2Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTarget3Response> ReportingService.ReportExecutionServiceSoap.LoadDrillthroughTarget3Async(ReportingService.LoadDrillthroughTarget3Request request)
+        System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTarget3Response> ReportExecution.ReportExecutionServiceSoap.LoadDrillthroughTarget3Async(ReportExecution.LoadDrillthroughTarget3Request request)
         {
             return base.Channel.LoadDrillthroughTarget3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LoadDrillthroughTarget3Response> LoadDrillthroughTarget3Async(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
+        public System.Threading.Tasks.Task<ReportExecution.LoadDrillthroughTarget3Response> LoadDrillthroughTarget3Async(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DrillthroughID)
         {
-            ReportingService.LoadDrillthroughTarget3Request inValue = new ReportingService.LoadDrillthroughTarget3Request();
+            ReportExecution.LoadDrillthroughTarget3Request inValue = new ReportExecution.LoadDrillthroughTarget3Request();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DrillthroughID = DrillthroughID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LoadDrillthroughTarget3Async(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LoadDrillthroughTarget3Async(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.ToggleItemResponse> ReportingService.ReportExecutionServiceSoap.ToggleItemAsync(ReportingService.ToggleItemRequest request)
+        System.Threading.Tasks.Task<ReportExecution.ToggleItemResponse> ReportExecution.ReportExecutionServiceSoap.ToggleItemAsync(ReportExecution.ToggleItemRequest request)
         {
             return base.Channel.ToggleItemAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.ToggleItemResponse> ToggleItemAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string ToggleID)
+        public System.Threading.Tasks.Task<ReportExecution.ToggleItemResponse> ToggleItemAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string ToggleID)
         {
-            ReportingService.ToggleItemRequest inValue = new ReportingService.ToggleItemRequest();
+            ReportExecution.ToggleItemRequest inValue = new ReportExecution.ToggleItemRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.ToggleID = ToggleID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).ToggleItemAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).ToggleItemAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.NavigateDocumentMapResponse> ReportingService.ReportExecutionServiceSoap.NavigateDocumentMapAsync(ReportingService.NavigateDocumentMapRequest request)
+        System.Threading.Tasks.Task<ReportExecution.NavigateDocumentMapResponse> ReportExecution.ReportExecutionServiceSoap.NavigateDocumentMapAsync(ReportExecution.NavigateDocumentMapRequest request)
         {
             return base.Channel.NavigateDocumentMapAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.NavigateDocumentMapResponse> NavigateDocumentMapAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, string DocMapID)
+        public System.Threading.Tasks.Task<ReportExecution.NavigateDocumentMapResponse> NavigateDocumentMapAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, string DocMapID)
         {
-            ReportingService.NavigateDocumentMapRequest inValue = new ReportingService.NavigateDocumentMapRequest();
+            ReportExecution.NavigateDocumentMapRequest inValue = new ReportExecution.NavigateDocumentMapRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.DocMapID = DocMapID;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).NavigateDocumentMapAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).NavigateDocumentMapAsync(inValue);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.NavigateBookmarkResponse> NavigateBookmarkAsync(ReportingService.NavigateBookmarkRequest request)
+        public System.Threading.Tasks.Task<ReportExecution.NavigateBookmarkResponse> NavigateBookmarkAsync(ReportExecution.NavigateBookmarkRequest request)
         {
             return base.Channel.NavigateBookmarkAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.FindStringResponse> ReportingService.ReportExecutionServiceSoap.FindStringAsync(ReportingService.FindStringRequest request)
+        System.Threading.Tasks.Task<ReportExecution.FindStringResponse> ReportExecution.ReportExecutionServiceSoap.FindStringAsync(ReportExecution.FindStringRequest request)
         {
             return base.Channel.FindStringAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.FindStringResponse> FindStringAsync(ReportingService.ExecutionHeader ExecutionHeader, ReportingService.TrustedUserHeader TrustedUserHeader, int StartPage, int EndPage, string FindValue)
+        public System.Threading.Tasks.Task<ReportExecution.FindStringResponse> FindStringAsync(ReportExecution.ExecutionHeader ExecutionHeader, ReportExecution.TrustedUserHeader TrustedUserHeader, int StartPage, int EndPage, string FindValue)
         {
-            ReportingService.FindStringRequest inValue = new ReportingService.FindStringRequest();
+            ReportExecution.FindStringRequest inValue = new ReportExecution.FindStringRequest();
             inValue.ExecutionHeader = ExecutionHeader;
             inValue.TrustedUserHeader = TrustedUserHeader;
             inValue.StartPage = StartPage;
             inValue.EndPage = EndPage;
             inValue.FindValue = FindValue;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).FindStringAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).FindStringAsync(inValue);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.SortResponse> SortAsync(ReportingService.SortRequest request)
+        public System.Threading.Tasks.Task<ReportExecution.SortResponse> SortAsync(ReportExecution.SortRequest request)
         {
             return base.Channel.SortAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.Sort2Response> Sort2Async(ReportingService.Sort2Request request)
+        public System.Threading.Tasks.Task<ReportExecution.Sort2Response> Sort2Async(ReportExecution.Sort2Request request)
         {
             return base.Channel.Sort2Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.Sort3Response> Sort3Async(ReportingService.Sort3Request request)
+        public System.Threading.Tasks.Task<ReportExecution.Sort3Response> Sort3Async(ReportExecution.Sort3Request request)
         {
             return base.Channel.Sort3Async(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.GetRenderResourceResponse> GetRenderResourceAsync(ReportingService.GetRenderResourceRequest request)
+        public System.Threading.Tasks.Task<ReportExecution.GetRenderResourceResponse> GetRenderResourceAsync(ReportExecution.GetRenderResourceRequest request)
         {
             return base.Channel.GetRenderResourceAsync(request);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.ListRenderingExtensionsResponse> ReportingService.ReportExecutionServiceSoap.ListRenderingExtensionsAsync(ReportingService.ListRenderingExtensionsRequest request)
+        System.Threading.Tasks.Task<ReportExecution.ListRenderingExtensionsResponse> ReportExecution.ReportExecutionServiceSoap.ListRenderingExtensionsAsync(ReportExecution.ListRenderingExtensionsRequest request)
         {
             return base.Channel.ListRenderingExtensionsAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.ListRenderingExtensionsResponse> ListRenderingExtensionsAsync(ReportingService.TrustedUserHeader TrustedUserHeader)
+        public System.Threading.Tasks.Task<ReportExecution.ListRenderingExtensionsResponse> ListRenderingExtensionsAsync(ReportExecution.TrustedUserHeader TrustedUserHeader)
         {
-            ReportingService.ListRenderingExtensionsRequest inValue = new ReportingService.ListRenderingExtensionsRequest();
+            ReportExecution.ListRenderingExtensionsRequest inValue = new ReportExecution.ListRenderingExtensionsRequest();
             inValue.TrustedUserHeader = TrustedUserHeader;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).ListRenderingExtensionsAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).ListRenderingExtensionsAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LogonUserResponse> ReportingService.ReportExecutionServiceSoap.LogonUserAsync(ReportingService.LogonUserRequest request)
+        System.Threading.Tasks.Task<ReportExecution.LogonUserResponse> ReportExecution.ReportExecutionServiceSoap.LogonUserAsync(ReportExecution.LogonUserRequest request)
         {
             return base.Channel.LogonUserAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LogonUserResponse> LogonUserAsync(string userName, string password, string authority)
+        public System.Threading.Tasks.Task<ReportExecution.LogonUserResponse> LogonUserAsync(string userName, string password, string authority)
         {
-            ReportingService.LogonUserRequest inValue = new ReportingService.LogonUserRequest();
+            ReportExecution.LogonUserRequest inValue = new ReportExecution.LogonUserRequest();
             inValue.userName = userName;
             inValue.password = password;
             inValue.authority = authority;
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LogonUserAsync(inValue);
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LogonUserAsync(inValue);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ReportingService.LogoffResponse> ReportingService.ReportExecutionServiceSoap.LogoffAsync(ReportingService.LogoffRequest request)
+        System.Threading.Tasks.Task<ReportExecution.LogoffResponse> ReportExecution.ReportExecutionServiceSoap.LogoffAsync(ReportExecution.LogoffRequest request)
         {
             return base.Channel.LogoffAsync(request);
         }
         
-        public System.Threading.Tasks.Task<ReportingService.LogoffResponse> LogoffAsync()
+        public System.Threading.Tasks.Task<ReportExecution.LogoffResponse> LogoffAsync()
         {
-            ReportingService.LogoffRequest inValue = new ReportingService.LogoffRequest();
-            return ((ReportingService.ReportExecutionServiceSoap)(this)).LogoffAsync(inValue);
+            ReportExecution.LogoffRequest inValue = new ReportExecution.LogoffRequest();
+            return ((ReportExecution.ReportExecutionServiceSoap)(this)).LogoffAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
