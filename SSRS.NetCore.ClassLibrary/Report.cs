@@ -215,9 +215,9 @@ namespace SSRS.NetCore.ClassLibrary
             // Get the report and set the execution header.
             // Failure to set the execution header will result in this error: "The session identifier is missing. A session identifier is required for this operation."
             // See https://social.msdn.microsoft.com/Forums/sqlserver/en-US/17199edb-5c63-4815-8f86-917f09809504/executionheadervalue-missing-from-reportexecutionservicesoapclient
-            LoadReportResponse loadReponse = await rs.LoadReportAsync(trustedHeader, reportPath, HistoryId);
+            LoadReportResponse loadResponse = await rs.LoadReportAsync(trustedHeader, reportPath, HistoryId);
 
-            return loadReponse;
+            return loadResponse;
         }
     }
 }
