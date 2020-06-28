@@ -3,6 +3,7 @@ using ReportService;
 using System;
 using System.Collections.Generic;
 using System.ServiceModel;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace SSRS.NetCore.ClassLibrary
@@ -118,11 +119,48 @@ namespace SSRS.NetCore.ClassLibrary
             {
                 foreach (CatalogItem item in listChildrenResponse.CatalogItems)
                 {
-                    string[] reportItem = new string[3];
+                    string[] reportItem = new string[4];
                     reportItem[0] = item.Name ?? string.Empty;
                     reportItem[1] = item.Description ?? string.Empty;
                     reportItem[2] = item.Path ?? string.Empty;
-                    
+
+                    if (item.Type == ItemTypeEnum.Report)
+                    {
+                        ReportService.ParameterValue[] values = null;
+                        ReportService.DataSourceCredentials[] credentials = null;
+                        var reportParameters = RSServiceClient.GetReportParametersAsync(
+                            item.Path,
+                            HistoryId,
+                            true,
+                            values,
+                            credentials
+
+                        );
+
+                        reportParameters.Wait();
+
+                        if (reportParameters.IsCompletedSuccessfully)
+                        {
+                            List<string> parameters = new List<string>();
+                            foreach (ReportService.ReportParameter paranmeter in reportParameters.Result.Parameters)
+                            {
+                                parameters.Add(paranmeter.Name);
+                            }
+
+                            StringBuilder builder = new StringBuilder();
+                            foreach (string parameter in parameters)
+                            {
+                                builder.Append(parameter).Append(',');
+                            }
+
+                            reportItem[3] = builder.ToString().Trim(',');
+                        }
+                    }
+                    else
+                    {
+                        reportItem[3] = string.Empty;
+                    }
+
                     listing.Add(reportItem);
                 }
             }

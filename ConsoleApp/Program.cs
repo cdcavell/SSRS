@@ -20,10 +20,11 @@ namespace ConsoleApp
             List<string[]> reportListing = report.Listing("/ReportProject");
             foreach (string[] item in reportListing)
             {
-                Console.WriteLine(string.Format("[Name]: {0} [Description]: {1} [Path]: {2}",
+                Console.WriteLine(string.Format("[Name]: {0} [Description]: {1} [Path]: {2} [Parameters]: {3}",
                     item[0],
                     item[1],
-                    item[2]
+                    item[2],
+                    item[3]
                 ));
             }
 
